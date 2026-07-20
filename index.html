@@ -196,6 +196,8 @@
   }
   .footer-bottom a{margin-left:18px; color:rgba(255,255,255,0.6);}
   .footer-bottom a:hover{color:#fff;}
+  .footer-legal{display:flex; flex-direction:column; gap:4px;}
+  .entity-line{color:rgba(255,255,255,0.42); font-size:0.72rem;}
 
   @media (max-width:980px){
     nav{display:none;}
@@ -393,7 +395,10 @@
     <div></div>
   </div>
   <div class="footer-bottom">
-    <span>© 2026 Fir Solutions, a member of The Fir Group. All rights reserved.</span>
+    <div class="footer-legal">
+      <span class="entity-line">Fir Solutions LLC — An Idaho Limited Liability Company</span>
+      <span>© 2026 Fir Solutions, a member of The Fir Group. All rights reserved.</span>
+    </div>
     <span><a href="#">Privacy Policy</a><a href="#">Terms of Service</a></span>
   </div>
 </section>
